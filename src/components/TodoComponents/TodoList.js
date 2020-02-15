@@ -2,10 +2,11 @@ import React from 'react';
 import './Todo.css';
 import Todo from './Todo';
 
+
 const TodoList = (props) => {
     return (
       <div className="list-container">
-          {/* Takes as input (from props) each of the todos in state, iterates through (using .map), and renders them onscreen */}
+          
           {props.todos.map(todo => {
             return (
               <div>

@@ -1,0 +1,17 @@
+html{
+    font-size: 50.%;
+ }
+ .completed {
+    text-decoration: line-through;
+  }
+ .App {
+     max-width: 500px;
+     background: blueviolet;
+     font-size: 1.5rem;
+     color: #EEF0EE;
+     padding: 4%;
+     border: 4px solid red;
+     border-radius: 3%;
+     font-family: 'Indie Flower', cursive;
+ }
+

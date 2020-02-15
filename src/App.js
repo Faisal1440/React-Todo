@@ -1,4 +1,5 @@
 import React from 'react';
+import './components/TodoComponents/Todo.css';
 
 import TodoList from './components/TodoComponents/TodoList'
 import TodoForm from './components/TodoComponents/TodoForm';
@@ -120,7 +121,7 @@ componentDidMount() {
 
   render() {
     return (
-      <div className="todo-container">
+      <div className="todo-container App">
         <h1>ToDo List: MVP</h1>
         
         <TodoList key={this.state.todos.id} todos={this.state.todos} toggleComplete={this.toggleComplete} />
